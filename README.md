@@ -10,29 +10,29 @@ Follow these steps to set up and run the project locally:
 
 1. Clone the repository
 
-git clone https://github.com/durgeshpd/employee-feedback.git
-cd employee-feedback
+- git clone https://github.com/durgeshpd/employee-feedback.git
+- cd employee-feedback
 
 2. Setup Frontend
 
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 This will start the frontend development server.
 
 3. Setup Backend
 Open a new terminal window or tab, then:
 
-cd backend
-npm install
+- cd backend
+- npm install
 
 Run the admin creation script (required for admin login):
-node createAdmin.js
+- node createAdmin.js
 
 Start the backend server:
 
-npm run dev
+- npm run dev
 
 Usage
 Once both servers are running:
