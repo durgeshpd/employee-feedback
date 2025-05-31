@@ -12,8 +12,6 @@ function Navbar({ token }) {
           Employee Feedback
         </Link>
       </div>
-
-      {/* Desktop Menu */}
       <div className="hidden md:flex gap-6 font-semibold">
         {token ? (
           <Link to="/admin" className="btn btn-outline btn-secondary">
@@ -25,8 +23,6 @@ function Navbar({ token }) {
           </Link>
         )}
       </div>
-
-      {/* Mobile Menu Button */}
       <div className="md:hidden">
         <button
           className="btn btn-square btn-ghost"
@@ -37,7 +33,6 @@ function Navbar({ token }) {
         </button>
       </div>
 
-      {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
         <ul className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52 absolute right-6 top-16 z-50">
           {token ? (

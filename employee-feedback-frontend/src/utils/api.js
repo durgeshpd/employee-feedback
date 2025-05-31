@@ -7,7 +7,6 @@ async function handleResponse(res) {
       const errorData = await res.json();
       if (errorData.message) errorMessage = errorData.message;
     } catch {
-      // ignore JSON parse errors
     }
     throw new Error(errorMessage);
   }
