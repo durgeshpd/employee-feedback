@@ -16,11 +16,12 @@ cd employee-feedback
 ```
 
 2. Setup Frontend
-``bash
+```bash
 cd client
 npm install
 npm run dev
 ```
+
 This will start the frontend development server.
 
 3. Setup Backend
