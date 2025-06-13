@@ -9,37 +9,43 @@ employee-feedback-backend (Backend)
 Getting Started
 Follow these steps to set up and run the project locally:
 
-```bash
 1. Clone the repository
-~ git clone https://github.com/durgeshpd/employee-feedback.git
-~ cd employee-feedback
+```bash
+git clone https://github.com/durgeshpd/employee-feedback.git
+cd employee-feedback
+```
 
 2. Setup Frontend
-~ cd client
-~ npm install
-~ npm run dev
+``bash
+cd client
+npm install
+npm run dev
+```
 This will start the frontend development server.
 
 3. Setup Backend
-~ cd server
-~ npm install
+```bash
+cd server
+npm install
+```
 
 Create a .env file inside server/:
 
+```bash
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_secret_key
+```
 
 Run the admin creation script (required for admin login):
-~ node createAdmin.js
+```bash
+node createAdmin.js
+```
 
 Start the backend server:
-
-
-Usage
-Once both servers are running:
-
-Open your browser and navigate to the frontend URL (usually http://localhost:3000).
+```bash
+npm start
+```
 
 ```
 
