@@ -53,8 +53,7 @@ npm start
 You can submit feedback, and if logged in as an admin, you can manage feedback entries.
 
 Technologies Used:
+
 Frontend: React, Tailwind CSS (or your frontend stack)
 
 Backend: Node.js, Express, MongoDB (or your backend stack)
-
-If you want, I can help you customize the README further with screenshots, environment variables, or contribution guidelines!
